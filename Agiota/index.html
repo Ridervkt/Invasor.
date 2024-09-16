@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+
+        <div class="passo ativo" id="passo-0">
+            <img src="img/casa2.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você mora em uma bela casa com seus pais. Tem uma vida normal e sem muitos problemas.</p>
+            <button class="btn-proximo" data-proximo="1">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+           
+
+        <div><img src="img/cenario-passo0.jpg" alt=""></div>
+
+
+            <p>Em uma certa noite, você acorda em seu quarto após ouvir barulhos estranhos vindo de dentro de sua casa. 
+                Talvez seja só os seus pais. Mesmo assim, você fica intrigado com o barulho. </p>
+            <button class="btn-proximo" data-proximo="2">Investigar</button>
+            <button class="btn-proximo" data-proximo="100">Voltar a dormir</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <div><img src="img/sala.png" alt=""></div>
+            <p>Saindo do seu quarto, você percebe que a janela do segundo andar está escancarada. Achando suspeito a situação, você começa a ficar preocupado.</p>
+            <button class="btn-proximo" data-proximo="3">Ligar para a delegacia.</button>
+            <button class="btn-proximo" data-proximo="4">Descer e pegar uma faca na cozinha.</button>
+            <button class="btn-proximo" data-proximo="9">Sair de casa.</button>
+            <button class="btn-proximo" data-proximo="30">Ver se seus pais estão bem.</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <div><img src="img/telefone.png" alt=""></div>
+            <p>Após ligar para a delegacia, o policial na linha disse que vai chegar a qualquer momento e que era para você ficar quieto e se esconder.</p>
+            <button class="btn-proximo" data-proximo="7">Ouvir o policial.</button>
+            <button class="btn-proximo" data-proximo="4">Descer e pegar uma faca na cozinha.</button>
+            <button class="btn-proximo" data-proximo="9">Sair de casa.</button>
+            <button class="btn-proximo" data-proximo="30">Ver se seus pais estão bem.</button>
+        </div>
+
+      
+        <div class="passo" id="passo-100">
+            <img src="img/morto.jpg" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Parece que voltar a dormir não foi uma boa ideia...</p>
+            <button class="btn-proximo" data-proximo="1">Recomeçar</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <div><img src="img/cenario-passo0.jpg" alt=""></div>
+            <p>Você decide então se abrigar em seu quarto até os piliciais chegarem.</p>
+            <button class="btn-proximo" data-proximo="13">Continuar.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <div><img src="img/sair.png" alt=""></div>
+            <p>Inseguro em seu próprio lar, você decide sair de casa para não ser surpreendido, buscando ajuda dos vizinhos.</p>
+            <button class="btn-proximo" data-proximo="12">Continuar.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você desce silenciosamente até a cozinha para pegar uma faca. Com ela em mãos, sente-se mais seguro e confiante.</p>
+            <button class="btn-proximo" data-proximo="20">Ir para o quarto dos pais.</button>
+        </div>
+
+        <div class="passo" id="passo-20">
+            <p>Entrando no quarto de seus pais, você se depara com uma cena horrível. Ambos estavam esquartejados em cima da cama.</p>
+            <button class="btn-proximo" data-proximo="21">Continuar.</button>
+        </div>
+
+        <div class="passo" id="passo-21">
+            <p>Com o choque da cena, você começa a gritar de desespero.</p>
+            <button class="btn-proximo" data-proximo="22">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-22">
+            <div><img src="img/assas.webp" alt="22"></div>
+            <p>De repente, aparece o assassino que matou seus pais. Ele tenta atacá-lo de surpresa, mas você o surpreende com sua faca e consegue matá-lo.</p>
+            <button class="btn-proximo" data-proximo="11">Continuar.</button>
+        </div>
+
+
+        <div class="passo" id="passo-11">
+            <img src="img/final polícia.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Depois de cerca de 5 minutos, os policiais chegaram e averiguaram o local. A casa está intacta, sem resquício de invasão.
+                 Entretanto, os seus pais foram encontrados esquartejados em seu quarto.</p>
+                 <button class="btn-proximo" data-proximo="34">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="img/final polícia.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Depois de cerca de 5 minutos, os policiais chegaram e averiguaram o local. A casa está intacta, sem resquício de invasão.
+                 Entretanto, os seus pais foram encontrados esquartejados em seu quarto.</p>
+                 <button class="btn-proximo" data-proximo="16">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <img src="img/final polícia.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Depois de cerca de 5 minutos, os policiais chegaram e averiguaram o local. A casa está intacta, sem resquício de invasão.
+                 Entretanto, os seus pais foram encontrados esquartejados em seu quarto.</p>
+                 <button class="btn-proximo" data-proximo="35">Continuar</button>
+        </div>
+
+ 
+        <div class="passo" id="passo-16">
+            <div><img src="img/" alt=""></div>
+            <p>Já que os policias não encontraram nenhuma pista do assassinato, eles começaram a suspeitar de você.
+                 Por essa razão, você acaba ficando sobre custódia até encontrarem mais provas.  </p>
+            <button class="btn-proximo" data-proximo="19">Continuar.</button>
+        </div>
+
+        <div class="passo" id="passo-17">
+            <div><img src="img/" alt=""></div>
+            <p>Já que os policias não encontraram nenhuma pista do assassinato, eles começaram a suspeitar de você.
+                 Por essa razão, você acaba ficando sobre custódia até encontrarem mais provas.  </p>
+            <button class="btn-proximo" data-proximo="18">Continuar.</button>
+        </div>
+
+        <div class="passo" id="passo-35">
+            <div><img src="img/" alt=""></div>
+            <p>Já que os policias não encontraram nenhuma pista do assassinato, eles começaram a suspeitar de você.
+                 Por essa razão, você acaba ficando sobre custódia até encontrarem mais provas.  </p>
+            <button class="btn-proximo" data-proximo="18">Continuar.</button>
+        </div>
+
+        <div class="passo" id="passo-18">
+            <div><img src="img/preso.png" alt=""></div>
+            <p>Por causa dos assassinatos de seus pais, você acaba desenvolvendo estresse pós-traumático, paranoia e ansiedade,
+                sempre se perguntando se poderia ter salvo seus pais, ao invés de ter se escondido no seu quarto.  </p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar.</button>
+        </div>
+
+        <div class="passo" id="passo-19">
+            <div><img src="img/preso.png" alt=""></div>
+            <p>Por causa dos assassinatos de seus pais, você acaba desenvolvendo estresse pós-traumático, paranoia e ansiedade,
+                sempre se perguntando se poderia ter salvo seus pais, ao invés de ter fugido de casa.  </p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar.</button>
+        </div>
+        
+        <div class="passo" id="passo-34">
+            <div><img src="img/mani.webp" alt=""></div>
+            <p>Por causa dos assassinatos de seus pais, você acaba desenvolvendo estresse pós-traumático, paranoia e ansiedade. Dessa forma, começou a perder a sanidade e teve que ser internado em um manicômio pelo resto de sua vida.  </p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar.</button>
+        </div>
+
+        <div class="passo" id="passo-30">
+        <p>Entrando no quarto de seus pais, você se depara com uma cena horrível. Ambos estavam esquartejados em cima da cama.</p>
+        <button class="btn-proximo" data-proximo="31">Continuar.</button>
+    </div>
+
+    <div class="passo" id="passo-31">
+        <p>Com o choque da cena, você começa a gritar de desespero.</p>
+        <button class="btn-proximo" data-proximo="32">Continuar</button>
+    </div>
+
+    <div class="passo" id="passo-32">
+        <div><img src="img/assas.webp" alt="32"></div>
+        <p>De repente, aparece o assassino que matou seus pais. Ele te ataca de surpresa e, sem conseguir se defender, você acaba morrendo.</p>
+        <button class="btn-proximo" data-proximo="0">Recomeçar.</button>
+    </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
